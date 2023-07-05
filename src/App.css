@@ -1,3 +1,102 @@
-.App {
+body {
+  background-image: url('./images/background.png');
+  color: white;
   text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.planets {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+}
+
+.planets h2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 215px;
+}
+
+.planetcard {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.planetcard:nth-of-type( 1 ) img {
+  width: 41px;
+}
+
+.planetcard:nth-of-type( 2 ) img {
+  width: 102px;
+}
+
+.planetcard:nth-of-type( 3 ) img {
+  width: 106px;
+}
+
+.planetcard:nth-of-type( 4 ) img {
+  width: 66px;
+}
+
+.planetcard:nth-of-type( 5 ) img {
+  width: 272px;
+}
+
+.planetcard:nth-of-type( 6 ) img {
+  width: 282px;
+}
+
+.planetcard:nth-of-type( 7 ) img {
+  width: 144px;
+}
+
+.planetcard:nth-of-type( 8 ) img {
+  width: 144px;
+}
+
+hr {
+  position: absolute;
+  top: 402px;
+  width: 100%;
+  z-index: -1;
+}
+
+.missions h2 {
+  font-size: 2rem;
+  position: absolute;
+}
+
+.missions {
+  background-color: rgba(2 55, 255, 255, 0.2);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 100px;
+}
+
+.missioncard {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px;
+  width: 40%;
+}
+
+.missioncard:nth-of-type( 1 ) {
+  margin-top: 100px;
+}
+
+.missioncard:nth-of-type( 2 ) {
+  margin-top: 100px;
+}
+
+.missioncard p:first-of-type {
+  font-size: 1.5rem;
 }
